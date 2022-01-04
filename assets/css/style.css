@@ -1,0 +1,593 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.first-sec .navdiv{
+    width:100%;
+    height:auto;
+    background:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    z-index: 111;
+    box-shadow: 0 0px 2px rgb(0 0.2 0.2 / 40%);
+
+}
+.first-sec .navdiv .logo{
+   width:25%;
+   /* background:#2b2323;   this is one */
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding:20px 0px;
+
+}
+.first-sec .navdiv .logo a{
+    align-items: center;
+}
+
+.first-sec .navdiv .logo a img{
+  /*  background:chartreuse;  this is one */
+    height:30px;
+    align-items: center;
+    float: left;
+}
+.first-sec .navdiv .search{
+    width:22%;
+    /* background:gray;THIS IS ONE */
+}
+.first-sec .navdiv .search input{
+  
+    height:auto;
+    padding:5px 10px;
+    color: #8e8e8e;
+    background:#FAFAFA;
+    outline:none;
+    border:1px solid rgba(219, 219, 219, 219);
+    border-radius: 5px;
+    float: left;
+}
+.first-sec .navdiv .search input[type=text]{
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    width:268px;
+    height:36px;
+    color:black;
+}
+
+.first-sec .navdiv .navbar{
+   display: flex;
+   margin-left: 50px;
+}
+.first-sec .navdiv .navbar li a{
+    margin-left:20px;
+}
+.first-sec .navdiv .navbar .user-logo a img{
+   width:25px;
+   height:25px;
+   border-radius: 50%;
+}
+.first-sec .navdiv .navbar .icon-nav a i{
+    font-size: 24px;
+   color:black;
+
+}
+/* navbar is end */
+.body-sec{
+    display: flex;
+}
+.body-sec .all-body{
+    background:rgba(250, 250, 250);
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background:red; this is one */
+    margin-top: 70px;
+
+}
+.body-sec .all-body .left-sec{
+    width:48%;   /* change garna sakinxa*/
+    height:auto;
+    /* background:blue;this is one */
+}
+.body-sec .all-body .left-sec .storys{
+   /* background-color: black; this is one */
+   background:#FFFFFF;
+   width:100%;
+   height:auto;
+   margin-top: 20px;
+   padding:10px;
+   border:1px solid #beb6b6;
+   border-radius: 3px;
+}
+.body-sec .all-body .left-sec .storys .story-child{
+    display: flex;
+    width: 100%;
+    height:auto;
+    /* background:gray; this is one */
+    /* border:1px solid #beb6b6; this is one */
+    align-items: center;
+    padding:10px 0px;
+    position: relative;
+}
+.body-sec .all-body .left-sec .storys .story-child .Ustory1 .simg{
+    /* width:66px;
+    height:66px; */
+    padding:0px;
+    background: linear-gradient(#e66465, #9198e5);
+    border:2px solid transparent; 
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.body-sec .all-body .left-sec .storys .story-child .Ustory1 .simg2{
+    text-align: center;
+}
+.body-sec .all-body .left-sec .storys .story-child .Ustory1 .simg2 a{
+    color:#262626;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.body-sec .all-body .left-sec .storys .story-child .Ustory1 .simg .lastst{
+    
+    
+}
+.body-sec .all-body .left-sec .storys .story-child .Ustory1 img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width:65px;
+   height:65px;
+   cursor: pointer;
+   /* background:black; this is one */
+   border-radius: 50%;
+   align-items: center;
+   justify-content: center;
+   border:2px solid #fff;
+   /* padding:5px; */
+}
+.body-sec .all-body .left-sec .storys .story-child .Ustory1 .InextI{
+    background:rgba(211, 199, 199, 0.288);
+    padding:10px 15px;
+    border-radius: 50%;
+}
+
+.body-sec .all-body .left-sec .storys .story-child .Ustory1 .InextI a i{
+   font-size: 20px;
+}
+
+/* post div is start */
+.body-sec .all-body .left-sec .post-div{
+    width:100%;
+    height:auto;
+    background:#FFFFFF; /*this is one */
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0px 2px rgb(0 0.2 0.2 / 50%);
+}
+.body-sec .all-body .left-sec .post-div .ImgName{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.body-sec .all-body .left-sec .post-div .ImgName .p-img{
+    background: linear-gradient(#e66465, #9198e5);
+    border:2px solid transparent; 
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.body-sec .all-body .left-sec .post-div .ImgName .p-img a img{
+    width:40px;
+    height:40px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body-sec .all-body .left-sec .post-div .ImgName .userName{
+    /* background:red; this is one */
+    margin-left: 10px;
+}
+.body-sec .all-body .left-sec .post-div .ImgName .userName a{
+    color:#262626;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.body-sec .all-body .left-sec .post-div .ImgName .userName a:hover{
+    text-decoration: underline;
+}
+.body-sec .all-body .left-sec .post-div .ImgName .more-Icon {
+    /* background:gray; this is one */
+    position: relative;
+    left:65%;
+}
+.body-sec .all-body .left-sec .post-div .ImgName .more-Icon a i{
+    color:black;
+}
+.body-sec .all-body .left-sec .post-div .post-img{
+    margin-top: 10px;
+}
+.body-sec .all-body .left-sec .post-div .post-img img{
+    width:100%;
+    height:auto;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS{
+    width:100%;
+    height:auto;
+    /* background:white; this is one */
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage{
+    /* background:green;this is one */
+    height:auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .lcsChild{
+    display: flex;
+    /* background:red;  this is one */
+    padding:10px 0px;
+    width:100%;
+    height:auto;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .lcsChild .lcsDiv a {
+    
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .lcsChild .lcsDiv a i{
+    padding:10px 10px;
+    color:#262626;
+    /* background:gray; this is one */
+    font-size: 20px;
+    position: relative;
+    border-radius: 50%;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .lcsChild .lcsDiv .saved{
+    position: absolute;
+    left:55%;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .lcsChild .lcsDiv .saved i{
+    
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .lcsChild .lcsDiv i:hover{
+    color:rgba(160, 155, 155, 0.753);
+    opacity: 0.9;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .likedBy{
+    display: flex;
+    /* background:gray; this is one */
+    margin-top: 5px;
+    margin-left: 10px;
+    align-items: center;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .likedBy a img{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .likedBy .likedbyname{
+    color:#262626;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 8px;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .likedBy .likedbyname span{
+    color:#262626;
+    font-size: 14px;
+    font-weight: 700;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .likedBy .likedbyname .namess:hover{
+    text-decoration: underline;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .userDescription{
+    display: flex;
+    /* background:red; this is one */
+    margin-left: 10px;
+    padding-top:10px;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .userDescription .username{
+    color:#262626;
+    font-weight: 600;
+    display: flex;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .userDescription .username:hover{
+    text-decoration: underline;
+    
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .userDescription .desctxt{
+    color:#262626;
+    padding-left: 10px;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .Ucomment{
+    color:#262626;
+    margin-left: 10px;
+    /* background:gray; this is one */
+    display: flex; /*paxi add gareko  */
+    align-items: center;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .Ucomment .CuserName{
+    color:#262626;
+    font-weight: 600;
+    
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .Ucomment .CuserName:hover{
+    text-decoration: underline;
+    
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .Ucomment .Ucmttxt{
+    color:#262626;
+    margin-left: 10px;
+    
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .view-all-comment{
+    margin-left: 10px;
+    padding:8px 0px;
+    display: flex;/* paxi add gareko na milera */
+    /* background:blue; this is one */
+    
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .view-all-comment a{
+    color:#8e8e8e;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .Time {
+    margin-left: 10px;
+    display: flex;
+    /* background:gray;this is one */
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .Time a {
+    color:#8e8e8e;
+    font-size: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .hrs{
+    margin-top: 5px;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .write-comments {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* background:blue; this is one */
+    align-items: center;
+    padding: 15px 0px;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .write-comments a i {
+    font-size: 24px;
+    color:black;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .write-comments input {
+   margin-left: 10px;
+   width:80%;
+   padding:5px 8px;
+   outline: none;
+   /* background:red; this is one */
+   /* background: transparent; */
+   border:none;
+   font-size: 16px;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    overflow-wrap: break-word;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .write-comments input[type=text] {
+   font-size: 16px;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .write-comments .postComment{
+   color:#0095F6;
+   font-size: 14px;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+   text-align: center;
+   align-items: center;
+   padding:5px 10px;
+}
+.body-sec .all-body .left-sec .post-div .likeCandS .afterImage .write-comments .postComment:hover{
+    color:#0094f675;
+}
+
+
+/* rightbar is start */
+
+.body-sec .right-sec{
+    width:22%;
+    height:auto;
+    /* background:black; this is one */
+    margin-top: 20px;
+    margin-left: 20px;
+    position: sticky;
+    height:calc(100vh - 95px);
+    top:90px; 
+}
+.body-sec .right-sec .account-profile{
+    /* background:gray; this is one */
+    width:100%;
+    height:auto;
+    display: flex;
+    margin-top: 40px;
+}
+.body-sec .right-sec .account-profile .accountimg{
+    width:20%;
+    /* background:rgb(139, 139, 182); this is one */
+}
+.body-sec .right-sec .account-profile .accountimg a img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display:block;
+}
+.body-sec .right-sec .account-profile .accountname{
+    display: flex;
+    align-items: center;
+   
+}
+.body-sec .right-sec .account-profile .accountname .Iname{
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display: flex;
+}
+.body-sec .right-sec .account-profile .accountname a{
+}
+.body-sec .right-sec .account-profile .accountname .Anames1{
+    width:80%;
+    /* background:blue; this is one */
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.body-sec .right-sec .account-profile .accountname .Anames1 a{
+    color:#262626;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+.body-sec .right-sec .account-profile .accountname .Anames2 a{
+    color:#8e8e8e;
+}
+.body-sec .right-sec .account-profile .accountname .Anames1 .accountusern{
+    width:100%;
+    
+}
+.body-sec .right-sec .account-profile .accountname .Anames3{
+    width:5%;
+    /* background:green; this is one */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left:15px;
+    /* padding:10px 20px; */
+}
+.body-sec .right-sec .account-profile .accountname .Anames3 a{
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding:20px 5px;
+    color:#0095F6;
+
+}
+.body-sec .right-sec .viewall{
+    display: flex;
+    width:100%;
+    height:auto;
+    /* background:chocolate; this is one */
+    margin-top: 20px;
+}
+.body-sec .right-sec .viewall .viewallChild1{
+    width:80%;
+    height:auto;
+    /* background:gray; this is one */
+    display: flex;
+}
+.body-sec .right-sec .viewall .viewallChild1 a{
+}
+.body-sec .right-sec .viewall .viewallChild2{
+    width:20%;
+    /* background:rgb(145, 204, 7); this is one */
+    float: right;
+    position: relative;
+    right:5%;
+}
+.body-sec .right-sec .viewall .viewallChild2 a{
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+.body-sec .right-sec .viewall .viewallChild1 .suggestions{
+    font-size: 14px;
+    color:#8e8e8e;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+.body-sec .right-sec .viewall .viewallChild2 .seeall{
+    font-size: 12px;
+    color:#262626;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+.body-sec .right-sec .suggflow{
+    width:100%;
+    height:auto;
+    padding:5px 5px;
+    /* background:lightpink; this is one */
+
+}
+.body-sec .right-sec .suggflow .suggflowChild{
+   display: flex;
+   margin-top: 15px;
+   align-items: center;
+}
+.body-sec .right-sec .suggflow .suggflowChild .suggimg img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    display:block;
+}
+.body-sec .right-sec .suggflow .suggflowChild .suggimg2{
+    margin-left: 5px;
+    
+}
+.body-sec .right-sec .suggflow .suggflowChild .suggimg2 .fbyname{
+    color:#262626;
+    font-weight: 600; 
+}
+.body-sec .right-sec .suggflow .suggflowChild .suggimg2 .fbyname:hover{
+    text-decoration: underline;
+}
+.body-sec .right-sec .suggflow .suggflowChild .suggimg2 .fbyname{
+   font-size: 14px;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  
+}
+.body-sec .right-sec .suggflow .suggflowChild .suggimg2 .followdby{
+   font-size: 12px;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+   color:#8e8e8e;
+}
+.body-sec .right-sec .suggflow .suggflowChild .suggimg3 {
+   /* background:red; this is one */
+   margin-left: 20px;
+}
+.body-sec .right-sec .suggflow .suggflowChild .suggimg3 a {
+   font-size: 12px;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   color:#0095F6;
+
+
+}
+.body-sec .right-sec .shortlink {
+   /* background:gray; this is one */
+   margin-top: 20px;
+}
+.body-sec .right-sec .shortlink a{
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:#8e8e8e;
+    opacity: 0.6;
+}
+.body-sec .right-sec .shortlink a:hover{
+    text-decoration: underline;
+}
+.body-sec .right-sec .copyright{
+    margin-top: 15px;
+}
+.body-sec .right-sec .copyright a{
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:#8e8e8e;
+    opacity: 0.6;
+}
